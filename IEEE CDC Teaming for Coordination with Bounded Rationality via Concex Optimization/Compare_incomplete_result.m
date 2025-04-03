@@ -1,4 +1,6 @@
-% This is the main file running to get the result of comparing three kinds of incomplete graph with five nodes. 
+% This is the main file running to get the result of comparing three kinds of incomplete graphs with five nodes. 
+% This code is run with three functions created, named solve_W_custom.m, solve_W_path.m, solve_W_star.m. Put them all in a file and path
+% Then you can run and see the result
 
 % Define beta range
 beta_range = 1:1:100;
