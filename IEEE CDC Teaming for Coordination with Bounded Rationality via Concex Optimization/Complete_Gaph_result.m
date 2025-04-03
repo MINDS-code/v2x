@@ -1,8 +1,8 @@
 clf;
 clc;
-%In this code, you can compare a complete graph with a maximum of 7 nodes at a time. 
-%The result would show the comparison of objective value, optimal value w*(beta), and probability of action.
-%By using the simplified equation 29 in our paper to get the result.
+% In this code, you can compare a complete graph with a maximum of 7 nodes at a time. 
+% The result would show the comparison of objective value, optimal value w*(beta), and probability of action.
+% Using fminbnd to optimize equation 29 in our paper to get the uniform weighted result.
 
 
 N_list = [5, 10, 20,30]; %where to enter Node numbers. Most 7
