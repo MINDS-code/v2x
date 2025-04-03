@@ -78,7 +78,7 @@ grid on; box on;
 
 
 %% === Functions ===  
-% Function of objective function
+% Function of objective function using equation 29 in our paper
 function f = compute_complete_objective(w, N, beta, theta, rho)
     Z = 0;
     for d = 0:N
@@ -89,7 +89,7 @@ function f = compute_complete_objective(w, N, beta, theta, rho)
     f = Z + 0.5 * rho * w * N * (N - 1);
 end
 
-% Function of compute probability of action 
+% Function of compute probability of action using mu = 1/equation 29 
 function mu = compute_mu_approx(N, beta, w, theta)
     Z = 0;
     for d = 0:N
