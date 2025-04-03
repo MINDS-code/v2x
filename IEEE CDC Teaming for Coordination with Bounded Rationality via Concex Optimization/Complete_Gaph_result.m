@@ -1,9 +1,12 @@
 clf;
 clc;
-%In this code, you can compare complete graph with different nodes at maximum 7 at one time. The result would shows the comparasion of objective value, optimal value w*(beta) and probability of action.
+%In this code, you can compare a complete graph with a maximum of 7 nodes at a time. 
+%The result would show the comparison of objective value, optimal value w*(beta), and probability of action.
+
+
 N_list = [5, 10, 20,30]; %where to enter Node numbers. Most 7
-theta = N/2 +1 ;  %Here theta could be any number lager then N/2
-rho = 10;      % You can modify the number of penalty term
+theta = N/2 +1 ;  %Here theta could be any number larger than N/2
+rho = 10;      % You can modify the number of the penalty term
 beta_range = 1:100;
 
 num_beta = length(beta_range);
